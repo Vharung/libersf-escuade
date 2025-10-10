@@ -1,0 +1,45 @@
+{
+  "id": "libersf-escuade",
+  "title": "Liber SF - Points d’Escouade",
+  "description": "Affiche les points d’escouade de manière permanente sur la table virtuelle.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Vharung",
+      "url": "https://leschroniquesdeliber.fr",
+      "discord": "AlexandreC#0000"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "scripts/libersf-escuade.js"
+  ],
+  "styles": [
+    "styles/libersf-escuade.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [],
+  "relationships": {
+    "requires": [
+      {
+        "id": "libersf",
+        "type": "system",
+        "compatibility": { "minimum": "1.0.0" }
+      }
+    ]
+  },
+  "url": "https://github.com/Vharung/libersf-escuade",
+  "manifest": "https://raw.githubusercontent.com/Vharung/libersf-escuade/main/module.json",
+  "download": "https://github.com/Vharung/libersf-escuade/archive/refs/heads/main.zip",
+  "license": "MIT"
+}
